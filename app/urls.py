@@ -1,8 +1,7 @@
 """URL routing"""
 
-from django.urls import path
-
 from app import views
+from django.urls import path
 
 urlpatterns = [
     path("persons/", views.PersonListView.as_view(), name="persons"),

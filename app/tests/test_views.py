@@ -1,10 +1,9 @@
 """Test the views here"""
 
+from app.models import Person
 from django.urls import reverse
 from rest_framework.status import HTTP_200_OK
 from rest_framework.test import APITestCase
-
-from app.models import Person
 
 
 class TestListView(APITestCase):

@@ -1,8 +1,7 @@
 """Define views"""
 
-from rest_framework import generics
-
 from app import models, serializers
+from rest_framework import generics
 
 
 class PersonListView(generics.ListCreateAPIView):

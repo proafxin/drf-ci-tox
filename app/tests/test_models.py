@@ -1,8 +1,7 @@
 """Test the models here"""
 
-from rest_framework.test import APITestCase
-
 from app.models import Person
+from rest_framework.test import APITestCase
 
 
 class TestModels(APITestCase):

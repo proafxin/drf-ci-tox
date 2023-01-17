@@ -1,8 +1,7 @@
 """Define serializers"""
 
-from rest_framework.serializers import ModelSerializer
-
 from app import models
+from rest_framework.serializers import ModelSerializer
 
 
 class PersonSerializer(ModelSerializer):
